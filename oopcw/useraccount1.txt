@@ -1,0 +1,4 @@
+101, user1, admin
+102, user2, customer
+103, user3, customer
+104, user4, customer
