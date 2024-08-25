@@ -32,8 +32,6 @@ public class EBook extends Book {
 	//public methods
 	
 	//main method
-	public static void main() {
-		//EBook ebookName = new EBook (19238203, "The Wind in the Willows", Language.FRENCH, Genre.BIOGRAPHY, 29.45, 2, 830, EBookFormat.PDF);
-	}
+
 }
 

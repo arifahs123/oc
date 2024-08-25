@@ -2,7 +2,7 @@ package oopcw;
 
 //import oopcoursework.UserType;
 
-public class User { //will either have extend classes admin and customer or have roles admin and customer
+public class User {
 
 	//fields	
 	private int userID;
@@ -18,14 +18,19 @@ public class User { //will either have extend classes admin and customer or have
 	//getters
 	public int getUserId() {
 		return userID;
-		
+	}
+	
+	public String getUsername() {
+		return username;
 	}
 	
 	//setters
 	
 	//public method
 	public void viewAllBooks() {
-		
+		for (Book b: Library.libraryBooks) {
+			System.out.println(b.getTitle() + b.getISBN() + b.getRetailPrice());
+		}
 	}
 	
 	//main method

@@ -1,7 +1,0 @@
-11224455, audiobook, A Promised Land, English, Biography, 30.25, 10, 4.5, MP3
-22446688, ebook, Big Money Energy, French, Business, 10.99, 12, 182, AZW3
-33221144, audiobook, Project Management, English, Computer Science, 22.00, 9, 7.2, AAC
-33332233, ebook, Office Not Required, English, Business, 12.20, 4, 258, MOBI
-44112233, audiobook, How To Be Right, English, Biography, 3.0, 20, 8.30, WMA
-44556688, ebook, Cyber Security, English, Computer Science, 10.10, 10, 256, PDF
-44556677, audiobook, Deep Work, French, Business, 8.55, 7, 4.0, MP3

@@ -1,5 +1,7 @@
 package oopcw;
 
+import java.util.List;
+
 public class CustomerUser extends User{
 	//fields - all mentioned in User
 	
@@ -13,9 +15,15 @@ public class CustomerUser extends User{
 	//setters
 	
 	//public methods
+	public List<Book> customerViewBooks(){
+        //get list of books from library
+        //sort the books in ascending order of price
+        //return the sorted books
+		return null;
+    }
 	
 	//main method
-	public static void main(String[] args) {
-		CustomerUser c = new CustomerUser(3300, "user100");
-	}
+	//public static void main(String[] args) {
+		//CustomerUser c = new CustomerUser(3300, "user100");
+	//}
 }

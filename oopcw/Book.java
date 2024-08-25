@@ -1,8 +1,5 @@
 package oopcw;
 
-//import oopcoursework.Genre;
-//import oopcoursework.Language;
-
 public class Book { 
 	
 	//fields
@@ -73,10 +70,10 @@ public class Book {
 		this.quantityInStock = quantityInStock;
 	}
 	
-	//public methods
-	
-	//main method
-	public static void main() {
-	//	Book bookName = new Book(19238203, "The Wind in the Willows", Language.FRENCH, Genre.BIOGRAPHY, 29.45, 2);
+	@Override
+	public String toString() {
+	    return String.format("ISBN: %d, Title: %s, Language: %s, Genre: %s, Price: %.2f, Stock: %d",
+	        isbn, title, language, genre, retailPrice, quantityInStock);
 	}
+	
 }

@@ -1,5 +1,4 @@
 package oopcw;
-
 //import oopcoursework.AudioBookFormat;
 
 public class AudioBook extends Book{
@@ -32,10 +31,11 @@ public class AudioBook extends Book{
 		}
 		
 		//public methods
-		
-		//main method
-		public static void main() {
-			//AudioBook audiobookName = new AudioBook (19238203, "The Wind in the Willows", Language.FRENCH, Genre.BIOGRAPHY, 29.45, 2, 2334, AudioBookFormat.WMA);
-		}
+		/*
+		@Override
+    	public String toString(){
+        	return super.toString() + ", Length: " + length + " hours, Format: " + format;
+    	}
+		 */
 	}
 
